@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, Input, ElementRef, Renderer } from '@angular/core';
 import { NavController, IonicPage } from 'ionic-angular';
 import { Item } from '../../models/item';
 import { Items } from '../../providers/providers';
 
-//@IonicPage()
+@IonicPage()
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -12,13 +12,14 @@ export class HomePage {
 
   currentItems: Item[];
   grid: Array<Array<Item>>;
+
   //perRow: 2;
   
-    constructor(public navCtrl: NavController, public items: Items) {
+    constructor(public navCtrl: NavController, public items: Items, public element: ElementRef, public renderer: Renderer) {
       this.currentItems = this.items.query();
       this.grid = Array(Math.ceil(this.currentItems.length/2));
     }
-  
+
     ionViewDidLoad() {
       this.prepareForBetterDispaly()
     }

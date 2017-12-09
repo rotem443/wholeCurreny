@@ -5,10 +5,9 @@ import { MyApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
-//import { ItemDetailPage} from '../pages/item-detail/item-detail'
-//import { HomePage } from '../pages/home/home';
 import { ItemDetailPageModule} from '../pages/item-detail/item-detail.module'
 import { HomePageModule } from '../pages/home/home.module';
+import { SharedModule } from './shared.module'
 
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -26,6 +25,7 @@ import { Items } from '../mocks/items';
   ],
   imports: [
     BrowserModule,
+    SharedModule,
     HomePageModule,
     ItemDetailPageModule,
     IonicModule.forRoot(MyApp)
