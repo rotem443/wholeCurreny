@@ -1,15 +1,15 @@
 <ion-content scrollbar-y-auto>
   <ion-row *ngFor="let row of grid" wrap>
       <ion-col *ngFor="let item of row" (click)="openItem(item)" width-50>
-        <ion-card >
-            <img [src]="item.profilePic" />
+        <ion-card [style.background-image]="'url(' + item.profilePic + ')'" class="card-special">
+            <!-- <img [src]="item.profilePic" padding /> -->
           
               <ion-card-content>
 
                   <!-- <i class="cc BTC" title="ADC"></i> -->
 
                 <ion-row>
-                    <ion-card-title color="light">
+                    <ion-card-title color="secondary">
                         {{item.name}}
                       </ion-card-title>
                 </ion-row>

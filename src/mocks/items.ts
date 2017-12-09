@@ -14,40 +14,78 @@ export class Items {
 
 
   constructor() {
+    // let items = [
+    //   {
+    //     "name": "Burt Bear",
+    //     "profilePic": "assets/imgs/speakers/bear.jpg",
+    //     "about": "Burt is a Bear."
+    //   },
+    //   {
+    //     "name": "Charlie Cheetah",
+    //     "profilePic": "assets/imgs/speakers/cheetah.jpg",
+    //     "about": "Charlie is a Cheetah."
+    //   },
+    //   {
+    //     "name": "Donald Duck",
+    //     "profilePic": "assets/imgs/speakers/duck.jpg",
+    //     "about": "Donald is a Duck."
+    //   },
+    //   {
+    //     "name": "Eva Eagle",
+    //     "profilePic": "assets/imgs/speakers/eagle.jpg",
+    //     "about": "Eva is an Eagle."
+    //   },
+    //   {
+    //     "name": "Ellie Elephant",
+    //     "profilePic": "assets/imgs/speakers/elephant.jpg",
+    //     "about": "Ellie is an Elephant."
+    //   },
+    //   {
+    //     "name": "Molly Mouse",
+    //     "profilePic": "assets/imgs/speakers/mouse.jpg",
+    //     "about": "Molly is a Mouse."
+    //   },
+    //   {
+    //     "name": "Paul Puppy",
+    //     "profilePic": "assets/imgs/speakers/puppy.jpg",
+    //     "about": "Paul is a Puppy."
+    //   }
+    // ];
+
     let items = [
       {
         "name": "Burt Bear",
-        "profilePic": "assets/imgs/speakers/bear.jpg",
+        "profilePic": "assets/imgs/coins/bitcoin.png",
         "about": "Burt is a Bear."
       },
       {
         "name": "Charlie Cheetah",
-        "profilePic": "assets/imgs/speakers/cheetah.jpg",
+        "profilePic": "assets/imgs/coins/bitcoin.png",
         "about": "Charlie is a Cheetah."
       },
       {
         "name": "Donald Duck",
-        "profilePic": "assets/imgs/speakers/duck.jpg",
+        "profilePic": "assets/imgs/coins/bitcoin.png",
         "about": "Donald is a Duck."
       },
       {
         "name": "Eva Eagle",
-        "profilePic": "assets/imgs/speakers/eagle.jpg",
+        "profilePic": "assets/imgs/coins/bitcoin.png",
         "about": "Eva is an Eagle."
       },
       {
         "name": "Ellie Elephant",
-        "profilePic": "assets/imgs/speakers/elephant.jpg",
+        "profilePic": "assets/imgs/coins/bitcoin.png",
         "about": "Ellie is an Elephant."
       },
       {
         "name": "Molly Mouse",
-        "profilePic": "assets/imgs/speakers/mouse.jpg",
+        "profilePic": "assets/imgs/coins/bitcoin.png",
         "about": "Molly is a Mouse."
       },
       {
         "name": "Paul Puppy",
-        "profilePic": "assets/imgs/speakers/puppy.jpg",
+        "profilePic": "assets/imgs/coins/bitcoin.png",
         "about": "Paul is a Puppy."
       }
     ];

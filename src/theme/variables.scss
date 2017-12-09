@@ -13,10 +13,10 @@ $colors: (
 
 
 $text-color: color($colors, primary);
-$background-color:  color($colors, secondary);
+$background-color:  color($colors, light);
 $tabs-background:  color($colors, light);
-$tabs-md-tab-icon-color: color($colors, secondary);;
-$tabs-md-tab-icon-color-active: color($colors, dark);
+$tabs-md-tab-icon-color: color($colors, dark);;
+$tabs-md-tab-icon-color-active: color($colors, secondary);
 
 @import "ionic.theme.default";
 @import "ionic.ionicons";
